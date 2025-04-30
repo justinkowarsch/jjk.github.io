@@ -5,7 +5,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "jjk.engineer",
+  title: "JJK.ENGINEER",
   tagline: "Dinosaurs are cool",
   favicon: "img/favicon.ico",
 
@@ -68,7 +68,7 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "jjk.engineer",
+      title: "JJK.ENGINEER",
       logo: {
         alt: "My Site Logo",
         src: "img/logo.svg",
@@ -131,7 +131,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Justin Kowarsch. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
