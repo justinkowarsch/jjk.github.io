@@ -17,3 +17,8 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+general:
+  label: General
+  permalink: /general
+  description: General blog content

@@ -15,9 +15,18 @@ slorber:
   image_url: https://github.com/slorber.png
   page:
     # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
+    permalink: "/all-sebastien-lorber-articles"
   socials:
     x: sebastienlorber
     linkedin: sebastienlorber
     github: slorber
     newsletter: https://thisweekinreact.com
+
+jjk:
+  name: Justin Kowarsch
+  title: Yours Truly
+  url: https://jjk.engineer
+  image_url: https://pbs.twimg.com/profile_images/1844905108951257088/Y58tcFV8_400x400.jpg
+  socials:
+    x: JustinKowarsch
+    github: justinkowarsch
