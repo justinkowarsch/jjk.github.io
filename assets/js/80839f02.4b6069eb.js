@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[9931],{1095:e=>{e.exports=JSON.parse('{"tags":[{"label":"General","permalink":"/jjk.github.io/blog/tags/general","description":"General blog content","count":1}]}')}}]);
