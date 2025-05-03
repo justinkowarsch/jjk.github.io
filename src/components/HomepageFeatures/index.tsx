@@ -7,6 +7,7 @@ type FeatureItem = {
   title: string;
   Svg: React.ComponentType<React.ComponentProps<"svg">>;
   description: ReactNode;
+  id: string;
 };
 
 const FeatureList: FeatureItem[] = [
@@ -19,6 +20,7 @@ const FeatureList: FeatureItem[] = [
         used to get your website up and running quickly.
       </>
     ),
+    id: "easy-to-use",
   },
   {
     title: "Focus on What Matters",
@@ -29,6 +31,7 @@ const FeatureList: FeatureItem[] = [
         ahead and move your docs into the <code>docs</code> directory.
       </>
     ),
+    id: "focus-on-what-matters",
   },
   {
     title: "Powered by React",
@@ -39,6 +42,7 @@ const FeatureList: FeatureItem[] = [
         be extended while reusing the same header and footer.
       </>
     ),
+    id: "powered-by-react",
   },
 ];
 
@@ -46,7 +50,9 @@ function Feature({ title, Svg, description }: Readonly<FeatureItem>) {
   return (
     <div className={clsx("col col--4")}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <Svg className={styles.featureSvg}>
+          <title>{title}</title>
+        </Svg>
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
@@ -61,8 +67,8 @@ export default function HomepageFeatures(): ReactNode {
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+          {FeatureList.map((props) => (
+            <Feature key={props.id} {...props} />
           ))}
         </div>
       </div>

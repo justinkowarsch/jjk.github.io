@@ -6,13 +6,11 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 const config: Config = {
   title: "JJK.ENGINEER",
-  tagline: "Dinosaurs are cool",
+  tagline: "Under construction—stick around, it's going to get interesting!",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://justinkowarsch.github.io",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  url: "https://jjk.engineer",
   baseUrl: "/",
   trailingSlash: false,
 
