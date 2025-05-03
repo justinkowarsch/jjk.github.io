@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://justinkowarsch.github.io/blog</id>
+    <id>https://jjk.engineer/blog</id>
     <title>JJK.ENGINEER Blog</title>
     <updated>2025-04-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://justinkowarsch.github.io/blog"/>
+    <link rel="alternate" href="https://jjk.engineer/blog"/>
     <subtitle>JJK.ENGINEER Blog</subtitle>
-    <icon>https://justinkowarsch.github.io/img/favicon.ico</icon>
+    <icon>https://jjk.engineer/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome to JJK.ENGINEER]]></title>
-        <id>https://justinkowarsch.github.io/blog/welcome</id>
-        <link href="https://justinkowarsch.github.io/blog/welcome"/>
+        <id>https://jjk.engineer/blog/welcome</id>
+        <link href="https://jjk.engineer/blog/welcome"/>
         <updated>2025-04-30T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Welcome to JJK.ENGINEER]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="welcome-to-jjkengineer">Welcome to JJK.ENGINEER<a href="https://justinkowarsch.github.io/blog/welcome#welcome-to-jjkengineer" class="hash-link" aria-label="Direct link to Welcome to JJK.ENGINEER" title="Direct link to Welcome to JJK.ENGINEER">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="welcome-to-jjkengineer">Welcome to JJK.ENGINEER<a href="https://jjk.engineer/blog/welcome#welcome-to-jjkengineer" class="hash-link" aria-label="Direct link to Welcome to JJK.ENGINEER" title="Direct link to Welcome to JJK.ENGINEER">​</a></h2>
 <p>Welcome to jjk.engineer — part blog, part lab notebook, part playground for building my own damn tools instead of tolerating someone else’s.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="intro">Intro<a href="https://justinkowarsch.github.io/blog/welcome#intro" class="hash-link" aria-label="Direct link to Intro" title="Direct link to Intro">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="intro">Intro<a href="https://jjk.engineer/blog/welcome#intro" class="hash-link" aria-label="Direct link to Intro" title="Direct link to Intro">​</a></h2>
 <p>Hi, I'm Justin and I'm on a mission.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-mission">The mission<a href="https://justinkowarsch.github.io/blog/welcome#the-mission" class="hash-link" aria-label="Direct link to The mission" title="Direct link to The mission">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-mission">The mission<a href="https://jjk.engineer/blog/welcome#the-mission" class="hash-link" aria-label="Direct link to The mission" title="Direct link to The mission">​</a></h2>
 <ol>
 <li>To write.</li>
 <li>To code.</li>
 </ol>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="writing">Writing<a href="https://justinkowarsch.github.io/blog/welcome#writing" class="hash-link" aria-label="Direct link to Writing" title="Direct link to Writing">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="writing">Writing<a href="https://jjk.engineer/blog/welcome#writing" class="hash-link" aria-label="Direct link to Writing" title="Direct link to Writing">​</a></h3>
 <p>It's been said, I'm sure, but don't know by whom, that writing is a form of thinking. I like thinking, you'd think I'd like writing. And I do, but finding a way to do it is a struggle. I've explored all the different writing forms. Word, Google Docs, Evernote, Notion, pen and paper, all of which were to some degree or another, satisfying, in a way, but by keeping them relatively private, there was never a real push to do it well. That lack of development always seemed to leave something to be desired. Eventually, I landed on <a href="https://obsidian.md/" target="_blank" rel="noopener noreferrer">Obsidian</a>, which I still use. It's still all private, but, by it, I came to love writing with <a href="https://en.wikipedia.org/wiki/Markdown" target="_blank" rel="noopener noreferrer">Markdown</a>.</p>
 <p>This new-found interest in writing with Markdown dovetailed nicely with my desire to get it out to the public to encourage me to write better, thereby thinking deeper. So I started tinkering with blogs online. I first turned to WordPress. If you just want to write, it's fine. But I've always itched for just a bit more than writing alone, and the clunkiness I felt with WordPress discouraged my writing and left me searching...</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="coding">Coding<a href="https://justinkowarsch.github.io/blog/welcome#coding" class="hash-link" aria-label="Direct link to Coding" title="Direct link to Coding">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="coding">Coding<a href="https://jjk.engineer/blog/welcome#coding" class="hash-link" aria-label="Direct link to Coding" title="Direct link to Coding">​</a></h3>
 <p>A long time ago, in a high school far, far away, I took a class on computer programming. It sparked a neverending curiosity to tinker. In that course, I remember learning <a href="https://en.wikipedia.org/wiki/Turbo_Pascal" target="_blank" rel="noopener noreferrer">Turbo Pascal</a> in the first half of the year and the second we did <a href="https://en.wikipedia.org/wiki/Visual_Basic_(.NET)" target="_blank" rel="noopener noreferrer">Visual Basic</a>. It was rather depressing though to think that the only way to code like this was gaining access to <a href="https://en.wikipedia.org/wiki/Visual_Studio" target="_blank" rel="noopener noreferrer">Visual Studio</a>, which, at the time, was cost prohibitive (probably still is).</p>
 <p>Years later, after having abandoned any of this coding stuff on account of the perceived barrier to entry, I went to college for engineering and learned a couple more languages; <a href="https://en.wikipedia.org/wiki/Assembly_language" target="_blank" rel="noopener noreferrer">assembly</a>, <a href="https://en.wikipedia.org/wiki/C%2B%2B" target="_blank" rel="noopener noreferrer">C++</a>, <a href="https://en.wikipedia.org/wiki/MATLAB" target="_blank" rel="noopener noreferrer">Matlab</a>, <a href="https://en.wikipedia.org/wiki/Programmable_logic_controller" target="_blank" rel="noopener noreferrer">PLCs</a>, etc. They were all interesting, but I still didn't know of a way to code for free, or at the very least, very low cost, as I was a poor college student.</p>
 <p>My first job was in industrial automation and I got to tinker quite a bit with coding from a PLC standpoint, it was much more ladder logic and routines than raw coding in the way we might visualize, but I was exposed to an HMI platform called <a href="https://inductiveautomation.com/ignition/" target="_blank" rel="noopener noreferrer">Ignition</a> by Inductive Automation which is a browser-based HMI platform where I built the operator interface for a small plant in SETX along with the PLC control system it interacted with. Inductive Automation, being browser based, introduced me to <a href="https://www.w3schools.com/html/default.asp" target="_blank" rel="noopener noreferrer">HTML</a>, as I could write raw HTML to create the objects on the screen if the drag and drop stuff didn't suit my fancy, and much didn't. I don't recall during this time if I ever branched away from the raw HTML.</p>
@@ -42,7 +42,7 @@
 <p>Docusaurus helped me scaffold up a usable blog/docs website that does <em>not</em> preclude me from tinkering with the coding stuff I also want to get into. GitHub and GitHub Pages allows me to host the site for free. The only thing I actually pay for is the custom domain name.</p>
 <p>Docusaurus is a slight deviation from my original plan to build everything from scratch in Angular — which I still like and use for other projects. Docusaurus is built on React which is not completely foreign to me, but something new-ish.</p>
 <p>Over time you will see new things coming out on the site that is the result of my tinkering with code, so stand by. Otherwise, you will see my writing coming out quicker because I'm not building any of that for myself, just writing.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion<a href="https://justinkowarsch.github.io/blog/welcome#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion<a href="https://jjk.engineer/blog/welcome#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
 <p>In conclusion, here's what you can expect:</p>
 <ul>
 <li>snark</li>
