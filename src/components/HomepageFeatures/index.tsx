@@ -12,34 +12,45 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: "Easy to Use",
-    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    title: "The Field Memo",
+    Svg: require("@site/static/img/field_notes.svg").default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Tiny observations. Big snark. These bite-sized blurbs cut through the
+        sludge with sarcasm sharp enough to file a grievance.
       </>
     ),
     id: "easy-to-use",
   },
   {
-    title: "Focus on What Matters",
+    title: "Systems Analysis",
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        A deep dive into the steaming guts of organizational dysfunction.
+        Because satire is sometimes the only way to cope with systems this bad.
       </>
     ),
     id: "focus-on-what-matters",
   },
   {
-    title: "Powered by React",
+    title: "The Escalation Log",
     Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Real tales of managerial mayhem. Names may be changed, but the facepalms
+        are forever.
+      </>
+    ),
+    id: "powered-by-react",
+  },
+  {
+    title: "Sludge Alert",
+    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
+    description: (
+      <>
+        Field reports of freshly discovered bureaucracy so thick it requires a
+        permit to navigate.
       </>
     ),
     id: "powered-by-react",
@@ -48,7 +59,7 @@ const FeatureList: FeatureItem[] = [
 
 function Feature({ title, Svg, description }: Readonly<FeatureItem>) {
   return (
-    <div className={clsx("col col--4")}>
+    <div className={clsx("col col--3")}>
       <div className="text--center">
         <Svg className={styles.featureSvg}>
           <title>{title}</title>
