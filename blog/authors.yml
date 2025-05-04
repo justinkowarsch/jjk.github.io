@@ -1,8 +1,18 @@
 jjk:
   name: Justin Kowarsch
-  title: Yours Truly
-  url: https://jjk.engineer
-  image_url: /img/sludge.png
+  title: Engineer
+  url: /justin-kowarsch
+  image_url: /img/indignant_chicken.png
   socials:
     x: JustinKowarsch
     github: justinkowarsch
+  page:
+    permalink: /justin-kowarsch
+
+es:
+  name: Ernest Sludge
+  title: Yours Truly
+  url: /ernest-sludge
+  image_url: /img/sludge.png
+  page:
+    permalink: /ernest-sludge

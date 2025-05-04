@@ -1,12 +1,14 @@
 ---
 slug: setcp-escaping-esi
 title: S.E.T.C.P. — Escaping the Enterprise Software Inefficiency
-authors: [jjk]
+authors: [es]
 tags: [sludge, setcp, esi]
 draft: true
 ---
 
 import PronunciationSwitcher from "@site/src/components/PronunciationSwitcher";
+import RatingSelector from "@site/src/components/RatingSelector";
+import RatingSwitcher from "@site/src/components/RatingSwitcher";
 
 Welcome to Sarcastic Expeditions Through Corporate Purgatory (S.E.T.C.P.), I'll be your tour guide today.
 
@@ -28,11 +30,21 @@ If at any point you feel like you're going in circles, don't worry &mdash; that'
 
 :::
 
+:::warning
+
+This post might be a bit much for sensitive ears.
+
+<RatingSelector />
+
+<RatingSwitcher word="Shit fucking" /> happens.
+
+:::
+
 ## Hook
 
 It was a dark and stormy meeting. All eyes were on you as you hunted for the elusive spreadsheet &mdash; the one you knew, deep in your soul, hadn't been touched since the last time this meeting wasted your life.
 
-There you are, trapped in the labyrinth, traversing the network drive directory structure trying to locate which folder that goddam spreadsheet lives in. No luck in the *NAS*ty hierarchy of mostly empty and deeply nested folders and some times simply unadulterated digital dumpsters....then you jump to the equally nasty **_set_** of Teams folders, a maze of its own, of Teams everyone and their mother think you should be on and apparently can't come up with an original name between themselves...or, is it on SharePoint? Or Microsoft OneDrive? Is it my personal OneDrive or the organizational OneDrive? Or, absolutely worst of all, someone's C drive, who, conveniently, is on vacation "with spotty connectivity".
+There you are, trapped in the labyrinth, traversing the network drive directory structure trying to locate which folder that <RatingSwitcher word="goddamned"/> spreadsheet lives in. No luck in the *NAS*ty hierarchy of mostly empty, deeply nested, and often unadulterated digital dumpsters....then you jump to the equally nasty **_set_** of Teams folders, a maze of its own, of Teams everyone and their mother think you should be on and apparently can't come up with an original name between themselves...or, is it on SharePoint? Or Microsoft OneDrive? Is it my personal OneDrive or the organizational OneDrive? Or, absolutely worst of all, someone's C drive, who, conveniently, is on vacation "with spotty connectivity".
 
 :::note
 
@@ -40,38 +52,164 @@ I have a deep-seated issue with Microsoft's use of the word Team.
 
 :::
 
-The most soul-crushing part of all this? That spreadsheet exists for no other reason than this: the applications the corporate gods deemed "synergistically cross-functional", and "cohesively integrated", are usually such a nightmare to use that the most savvy among us are only really adept at extracting the useful data into...you guessed it..._that fucking spreadsheet_...the very thing the monstrous app was supposed to eliminate in the first place. But which spreadsheet is the latest data in? And where the hell is it hiding?
+<img
+  src="/img/sludge_computer_no_bg.png"
+  alt="Sludge at computer"
+  style={{
+    float: "right",
+    width: "200px",
+    display: "block",
+    margin: "0 0 1rem auto",
+  }}
+/>
 
-:::tip
+The most soul-crushing part of all this? That spreadsheet exists for no other reason than this: the applications the corporate gods deemed "synergistically cross-functional", and "cohesively integrated", are usually such a nightmare to use that the most savvy among us are only really adept at extracting the useful data into...you guessed it..._that <RatingSwitcher word="fucking"/> spreadsheet_...the very thing the monstrous app was supposed to eliminate in the first place. But which spreadsheet is the latest data in? And where <RatingSwitcher word="the hell"/> is it hiding?
 
-If you just ignore _most_ of the email you get when you _are_ at work, it won't ever seem odd that you don't reply to them when you're _not_ at work.
+:::tip[a tip about out-of-office memos]
+
+If you just ignore _most_ of the email you get when you _are_ at work, it won't ever seem odd that you don't read or reply to them when you're _not_ at work.
 
 :::
 
 ## The Hall of Shame
 
-I want to begin this journey by priming your mind with a hard truth: the hall of shame is really flipping long, and _very_ cluttered. Many of our supposedly beloved applications are likely to find themselves on the hall walls, though we may not speak of them here, and though they rightly deserve criticism. I will limit the remainder of this screed to a relatively manageable length.
+I want to begin this journey by priming your mind with a scary truth: the hall of shame is really <RatingSwitcher word="flipping"/> long, and _very_ cluttered. Many of our supposedly beloved applications are likely to find themselves on the hall walls. Though we may not speak of them here, they rightly deserve this criticism. To spare you, my dear reader and future Patreon contributor, I will limit the remainder of this screed to a relatively manageable length.
 
 :::note
 
-Why "supposedly beloved", you might say to yourself? I say it this way because there are some apologists for these hall of shame superstars who have their identities and resumes so tightly coupled to these applications that they, naturally, feel it's in their best interest to defend the offenders of sanity. It's a faux love. It's really a love of self, more than a love of any particular application. An instinct for survival cannot be faulted.
+Why "supposedly beloved", you might ask yourself? I say it this way because there are some apologists for these hall of shame superstars who have their identities and resumes so tightly coupled to these applications that they, naturally, feel it's in their best interest to defend these _Offenders-of-Sanity_. This faux love is really a love of self &mdash; an instinct for survival which can hardly be faulted.
 
 :::
 
-### The Shame-ers
+### First Round Draft Picks
 
 - SAP
 - Dynamics
 - Deltek
+- Workday
 
 ### What do they have in common
 
-- very poor UI/UX
-- one size fits most
+#### Case Study: Misdemeanors and Misdirection
+
+It's the Monday of a payday week. You have to approve your team's time sheets by 10am in one of these lovely applications. Under menu &rarr; Team &rarr; "Time and Scheduling Hub" it is. Let's give that a try. Win for the app, it happens to be the right place. You see a button that says "Review and Approve Time", "that's _got_ to be it", you think so you click it, you were told to "approve time" after all. A page appears with several fields. Let's go with the default selections, as they seem reasonable. Error.
+
+:::danger[error]
+
+Workers must have the same period schedule. Please modify the group of workers or select a period schedule in the prompt.
+
+:::
+
+Just so you know, that's Klingon for "you did it wrong, good luck fixing it".
+
+Somehow, you configure the multitudinous fields to generate _something_ after playing Twister a bit. But the approve button doesn't do anything. There appears a message on the table explaining why these hours are not approved:
+
+:::warning[reason]
+
+Hours must be submitted before they can be approved.
+
+:::
+
+You call the employee to ask them to submit their time sheet. But they don't have a submit button anywhere on their side of the digital hell-hole. Your colleague next door, overhearing your frustrated outburst, and who has actually read (and remembered) HR's instructions from six months ago, informs you that you don't _approve_ time, you _submit_ time. Approval is for someone else...but _THAT SOMEONE ELSE TOLD ME **I** HAD TO **APPROVE** TIME!_
+
+You get to where you _should_ be by "Enter Time for Worker". A modal pops up asking you which worker. I was just in the table showing the worker's not-approved time...and you don't know to which worker or time period I'm referring!?!
+
+:::tip
+
+Compliance is not always a virtue, but in some cases, it's nice to just get HR off your back...after two reminder emails that you ignore, they'll email your boss, who will email you. It's best to address your boss' email relatively promptly.
+
+:::
+
+Finally, you're there, all that beautiful _un-submitted_ time staring at you.
+
+There's no "Submit" button anywhere on the screen you're on.
+
+Poking around, you find it hidden in pop up tray when you click "Review". Submit that <RatingSwitcher word="shit"/>, finally, once and for all and go have some coffee.
+
+But not before we have a look at some of the alerts the app sees fit to inform me of:
+
+:::warning[alerts]
+
+- On \[date] you arrived early by 8 or more minutes.
+- On \[date] you arrived early by 8 or more minutes.
+- On \[date] you arrived early by 8 or more minutes.
+- On \[date] you arrived early by 8 or more minutes.
+
+:::
+
+Good god, I'm so glad someone is watching out for me! Good catch!
+
+:::info[legal notice:]
+
+Key information like names, dates, organizations, applications are left out to protect the truly innocent, **and me**, from lawsuits, and superfluous trips to HR...which in all actuality would likely warrant a future blog post.
+
+Though the savvy sleuth can probably deduce much of the concealed information, I maintain the hypothetical nature of the case studies outlined herein.
+
+:::
+
+#### Case Study: Farcical Archipelago of Affliction
+
+<img
+  src="/img/sludge_sleuth_no_bg.png"
+  alt="Sludge as sleuth"
+  style={{
+    float: "right",
+    width: "200px",
+    display: "block",
+    margin: "0 0 1rem auto",
+  }}
+/>
+
+_featuring stops at Button Roulette, Dialogues with the Void, and The Submit Button That Wasn’t._
+
+One day you're asked to answer a question on a project's financial situation. You know just the app to use...it's the only one you have for this purpose. You log into your "dashboard" which really is largely a blank screen. You're lovingly afforded a "Quick Access Panel" of the "Most Frequently Used" or preloaded "Favorite" features, because god forbid you go find one of these features on your own in the application as they're encoded into meaningless alphanumeric strings bearing little or no resemblance to their nature. You click on the one link you know works and it brings you to a screen that has three or four columns of labels and input fields.....
+
+:::note
+
+Most enterprise software developers must have a different mind about them when they label these things "dashboards". If they're referring to the dashboard an auto manufacturer uses to bash it's crash test dummies into on the crash track to see what comes out of the dummy's head then they're bang on with the label.
+
+:::
+
+There is one **notorious** application with a Vegas Strip of buttons with impenetrable iconography (to simplify the UI) and fields that require archeological digs on each to far off unknown regions to uncover their true meaning and purpose...after all of which, you forget why you even opened the <RatingSwitcher word="damned"/> app in the first place.
+
+:::note
+
+If you ever find yourself wondering why the labels on fields might not make any sense to you and seem like they're meant for the clay tablet, you're on to something, the designers might have bound the UI field label to the actual database field name and those geeks play by their own rules when it comes to naming conventions that rarely take the end user into consideration.
+
+:::
+
+The potential use case for the application is so vast that the designers seem to sell this as a feature, and the buyers at the top of organizations don't seem to ever actually use the application so we're all left to wade through dialogues with the void and play button roulette to our own dismay because suffering frustrations such as these "is what we're paid to do".
+
+Or:
+A few ideas you might riff on to extend this format:
+
+- "Case Study: Button Roulette" – a saga of random iconography and unclear calls to action.
+- "Case Study: Dialogues with the Void" – where modal prompts ask you questions they already know the answers to.
+- "Case Study: The Submit Button That Wasn’t" – an archaeological dig for the one element that matters.
+- "Case Study: Wizards of Configuration" – consultants conjure productivity from the arcane.
+
+You could even make a little recurring icon (a la your sludge mascot) for each case study type.
+
+#### Poor UI/UX
+
+These applications' UI/UX generally do one thing well, discombobulate. There are more menus and submenus than grains of sand on a beach. It's like the Vegas Strip. Much like the aforementioned *NAS*ty Filesystem Swamp and Mount SharePoint-of-No-Return, they keep you searching. Oh sure, you can create some favorites, good luck finding them in the first place.
+
+If you do luck out and actually find what you're looking for, the page is likely to wind up with too much unimportant information and too many buttons that either don't make sense, or are of no use.
+
+There is one notable example that comes to mind, a button with a check on it next to a button with a clock with a check over the bottom right corner. Your intuition might say, hit the check button to get what you want, but no, that's incorrect, that's just a button that "validates the screen". The button you really want hit, to do what you want, is the clock with the tiny check on it. This lack of intuitiveness is a drain on the user. This may seem like an insignificant inconvenience, but it's indicative of most of the application's lack of intuitiveness and superfluity.
+
+#### One Size Fits Most
+
+The organizations who create the _shells_ do this on purpose, to sell to as many organizations as they can, then configure these shells to "adapt" to an organizations specific "needs". This usually leaves the application cluttered and confusing because there is only so much configuration they can do before they're writing custom apps for every buyer. So you're stuck.
+
+:::note[note-to-self: things to talk about/incorporate]
+
 - more config and consulting than actual productivity tools
 - far too much information displayed
 - far too many buttons with dubious purpose
 - by 100% us 5% &larr; I really don't like to use this smaller percentage...it's impossible to truly quantify. But there is a qualitative _feeling_ that much of the application isn't being use. Now, if we dial that in a bit, much of the **UI** isn't being use, that's a sign.
+
+:::
 
 My own personal experience with trying to choose one for my own business...
 
@@ -81,7 +219,9 @@ My own personal experience with trying to choose one for my own business...
 
 ## Why Do We Keep Doing This?
 
-Slightly less stinky piles of dog shit.
+Slightly less stinky piles of dog <RatingSwitcher word="shit"/>.
+
+_Valley of Vendor Lock-In_ with well-worn paths that lead to nowhere, marked by bones of pilot programs past.
 
 ## The Costs of ESI
 
@@ -102,9 +242,3 @@ That concludes today’s expedition. Please exit through the gift shop where we 
 :::
 
 And...I'm off, to conquer another blog post like it's the last spreadsheet on Earth.
-
-:::danger
-
-My wife's knee jerk reaction to this post, in draft form, was that it is "corporate erotica".
-
-:::
