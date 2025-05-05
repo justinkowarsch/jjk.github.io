@@ -4,9 +4,9 @@ import { themes as prismThemes } from "prism-react-renderer";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "theSludge.report",
+  title: "jjk.engineer",
   tagline: "Under construction—stick around, it's going to get interesting!",
-  favicon: "img/sludge.png",
+  favicon: "img/jjk.svg",
 
   url: "https://jjk.engineer",
   baseUrl: "/",
@@ -60,10 +60,10 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/sludge-social-card.png",
     navbar: {
-      title: "theSludge.report",
+      title: "jjk.engineer",
       logo: {
         alt: "My Site Logo",
-        src: "img/sludge.png",
+        src: "img/jjk.svg",
       },
       items: [
         {
